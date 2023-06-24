@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(191,211,230);
+  background: linear-gradient(90deg, rgba(191,211,230,1) 0%, rgba(234,248,251,1) 100%, rgba(107,97,247,1) 100%);
+}
+
+p,
+h1,
+h2,
+label,
+h3,
+td,
+th {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+#copy {
+  display: none;
+}
+
+input[type="button"] {
+  font-family: 'Roboto', sans-serif;
+  background-color: #238ec5;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-size: 1.2em;
+  transition: 0.2s;
+}
+
+input[type="button"]:hover {
+  background-color: #a2c9dd;
+  color: black;
+  cursor: pointer;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+
+input[type=text],
+input[type=number],
+input[type="password"] {
+  width: 50px;
+  height: 20px;
+  font-size: 20px;
+  padding: 3px 3px;
+  margin: 8px 0;
+  background-color:  rgb(255, 255, 255);
+}
+
+select {
+  width: 18%;
+  padding: 3px 10px;
+  margin: 8px 0;
+}
+
+hr {
+  margin-top: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: auto;
+  text-align: center;
+}
+
+p {
+  max-width: 800px;
+}
+
+#result {
+  height: min-content;
+  padding: 20px;
+  border: 1px solid gray;
+  text-align: left;
+  background-color: rgba(246, 244, 244, 0.547);
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+main {
+  margin: auto;
+  max-width: fit-content;
+  max-height: fit-content;
+  margin-top: 5vw;
+  text-align: center;
+}
