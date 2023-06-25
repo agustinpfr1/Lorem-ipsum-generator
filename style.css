@@ -85,7 +85,7 @@ p {
 #result {
   height: min-content;
   padding: 20px;
-  border: 1px solid gray;
+  border: 1px solid rgb(214, 212, 212);
   text-align: left;
   background-color: rgba(246, 244, 244, 0.547);
   font-family: 'Roboto', sans-serif;
@@ -93,6 +93,7 @@ p {
   max-width: 1200px;
   margin: auto;
   margin-bottom: 30px;
+  border-radius: 5px;
 }
 
 main {

@@ -41,6 +41,6 @@ const copyToClipboard = () => {
     navigator.clipboard.writeText(document.querySelector("#result").innerText);
     document.querySelector("#copy").value = "Copied!";
     setTimeout(() => {
-        document.querySelector("#copy").value = "Copy to clipboard!";
+        document.querySelector("#copy").value = "Copy to clipboard";
     }, 500);
 }
